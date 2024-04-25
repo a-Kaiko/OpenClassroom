@@ -1,0 +1,29 @@
+<?php
+$users=[
+    [
+        'name'=>'Mickael',
+        'email'=>'mickael@email.com',
+        'age'=>34,
+    ],
+    [
+        'name'=>'Laurene',
+        'email'=>'laurene@email.com',
+        'age'=>28,
+    ],
+];
+
+$recipes=[
+    [
+        'title'=>'Cassoulet',
+        'author'=>'mickael@email.com',
+        'is_enabled'=>true,
+        'recipe'=>'beans',
+    ],
+    [
+        'title'=>'Salade',
+        'author'=>'laurene@email.com',
+        'is_enabled'=>false,
+        'recipe'=>'tomatoes',
+    ],
+];
+?>
